@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.pot
+*.mo
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+myenv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Lock and package files
+poetry.lock
+Pipfile.lock
+uv.lock
+
+# Data and assets
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.db
+*.sqlite3
+*.h5
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.sav
+*.rds
+*.rdata
+*.rda
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Misc
+*.coverage
+.coverage
+.cache/
+pytest_cache/
+.tox/
+
+# Ignore attached assets (if not needed in repo)
+attached_assets/
