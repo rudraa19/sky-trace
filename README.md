@@ -185,3 +185,10 @@ CMD ["streamlit", "run", "app.py", "--server.port", "5000", "--server.address", 
 * **AWS/GCP/Azure** – Containerized deployment
 
 ---
+
+## 👥 Contributors
+
+* [rudraa19](https://github.com/rudraa19)
+* [henilmalaviya](https://github.com/henilmalaviya)
+* [Kaushal-00](https://github.com/Kaushal-00)
+* [BeathovenGala](https://github.com/BeathovenGala)
