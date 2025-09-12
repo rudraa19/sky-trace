@@ -34,9 +34,6 @@ myenv/
 .DS_Store
 Thumbs.db
 
-# Streamlit
-.streamlit/
-
 # Lock and package files
 poetry.lock
 Pipfile.lock
