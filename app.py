@@ -196,7 +196,12 @@ st.markdown("---")
 st.markdown("*AI-Powered Security Anomaly Detection System - Built with Streamlit*")
 
 st.markdown("""
-<div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+<style>
+@media (max-width: 600px) {
+  #chatbot-container { display: none !important; }
+}
+</style>
+<div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
     <iframe 
         src="https://builder.corover.ai/params/?appid=b9a4faa1-abed-4eef-a28a-7caddb277e3a#" 
         style="width: 350px; height: 500px; border: none; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
