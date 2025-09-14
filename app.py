@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import os
-import streamlit.components.v1 as components
+import streamlit.components.v1 as components, html
 
 # Configure page
 st.set_page_config(
@@ -194,3 +194,14 @@ with col2:
 # Footer
 st.markdown("---")
 st.markdown("*AI-Powered Security Anomaly Detection System - Built with Streamlit*")
+
+st.markdown("""
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+    <iframe 
+        src="https://builder.corover.ai/params/?appid=b9a4faa1-abed-4eef-a28a-7caddb277e3a#" 
+        style="width: 350px; height: 500px; border: none; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+        sandbox="allow-scripts allow-same-origin allow-forms"
+        title="Customer Support Chatbot">
+    </iframe>
+</div>
+""", unsafe_allow_html=True)
